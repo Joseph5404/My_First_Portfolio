@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    }
+main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+article{
+    flex: 2;
+    overflow-y: auto;
+}
+aside{
+    flex: 1;
+    overflow-y: auto;
+}
+
+nav ul li a{
+    color: white;
+}
+
+nav ul li a:hover{
+    color: rgb(120, 120, 248);
+}
+p{
+    color: #fff;
+}
+h1, h2,h3{
+    color: beige;
+}
+table{
+    color: #fff;
+}
